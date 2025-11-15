@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="heading">Sorting Algorithms</h1>
+    <nav class="navbar">
+      <div id="nav_div">
+        <div class="nav_button">
+          <label for="algo">Algorithms : </label>
+
+          <select id="algo">
+            <option value="bubble_sort" selected>Bubble Sort</option>
+            <option value="insertion_sort">Insertion Sort</option>
+            <option value="selection_sort">Selection Sort</option>
+            <option value="merge_sort">Merge Sort</option>
+            <option value="heap_sort">Heap Sort</option>
+            <option value="quick_sort">Quick Sort</option>
+            <option value="count_sort">Count Sort</option>
+            <option value="radix_sort">Radix Sort</option>
+            <option value="bucket_sort">Bucket Sort</option>
+          </select>
+        </div>
+
+        <div class="nav_button">
+          <p>Bars :</p>
+          <input type="range" min="40" max="150" value="50" id="size" />
+        </div>
+
+        <div class="nav_button">
+          <button class="button" id="decrease_speed">-</button>
+          <p>Speed</p>
+          <button class="button" id="increase_speed">+</button>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div id="Info_Cont1">
+        <p></p>
+      </div>
+
+      <div id="array_container"></div>
+
+      <div id="Info_Cont2">
+        <p></p>
+      </div>
+    </section>
+    <section>
+      <div class="footer">
+        <button id="sort">Sort</button>
+        <button id="shuffle">Shuffle</button>
+        <button id="report_button"><a href="/report.html">Report</a></button>
+      </div>
+    </section>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/bubble.js"></script>
+    <script type="module" src="scripts/bucket.js.js"></script>
+    <script type="module" src="scripts/count.js"></script>
+    <script type="module" src="scripts/heap.js"></script>
+    <script type="module" src="scripts/insertion.js"></script>
+    <script type="module" src="scripts/merge.js"></script>
+    <script type="module" src="scripts/quick.js"></script>
+    <script type="module" src="scripts/radix.js"></script>
+    <script type="module" src="scripts/selection.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Heading Style */
+#heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+/* Navbar Style */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#nav_div {
+  display: flex;
+}
+
+#algo {
+  margin-left: 7px;
+}
+.nav_button {
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.nav_button p {
+  margin: 0 10px;
+  color: white;
+}
+
+.button {
+  height: 18px;
+  width: 18px;
+  background-color: #1b0040;
+  color: #fcfcfc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #674a90;
+}
+
+.nav_button select,
+input[type="range"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Array Container Style */
+#array_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: turquoise;
+  position: relative;
+  transition: height 0.3s ease; /* Smooth height transition for animation */
+}
+
+.bar-label {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  font-size: 14px;
+}
+/* Info Containers */
+#Info_Cont1,
+#Info_Cont2 {
+  margin: 10px;
+  text-align: center;
+  color: #333;
+  font-size: 1.2rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer button {
+  height: 40px;
+  width: 50px;
+  margin: 10px 35px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+}
+
+.footer button:hover {
+  background-color: #b0b0b0;
+}
