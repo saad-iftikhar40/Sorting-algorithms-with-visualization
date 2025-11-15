@@ -59,7 +59,7 @@ Execution time (ms) for algorithms at different input sizes:
 ## 📊 Performance Graph
 
 
-
+<img  alt="Performance Graph" src="/assets/performance_graph.png">
 
 ![Performance Graph](assets\performance_graph.png)
 
